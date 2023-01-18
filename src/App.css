@@ -8,26 +8,26 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 2vh;
   
 }
 
 #SiteContent {
+  
     
 }
 
 #Banner {
   border-radius: 25px;
-  background-color:#555753;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
+  margin: 5px;
   width: 100%;
   min-height:100px;
   max-height:180px;
   border: var(--border) ;
   text-align: center;
   opacity: 0.85;
+  
 }
 
 #Button {
@@ -38,10 +38,9 @@ main {
 #Content {  
   border: var(--border) ;
   border-radius: 25px;
-  background-color:#555753;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
+  margin: 5px;
   width: 100%;
   border: var(--border) ;
   text-align: center;
@@ -64,20 +63,30 @@ main {
 }
 
 #Product {
-  border: var(--border) ;
+  border: 1px solid;
+  border-radius: 25px;
   
 }
 
 #StoreOne {
   border: var(--border) ;
   border-radius: 25px;
-  background-color:#555753;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
+  margin: 5px;
   width: 100%;
   text-align: center;
   opacity: 0.85;  
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  #StoreOne {
+    grid-template-columns: 1fr;
+  }
 }
 
 #ThreeColumnGrid {

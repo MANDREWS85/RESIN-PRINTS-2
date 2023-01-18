@@ -2,6 +2,8 @@ import './App.css';
 import Banner from './components/Banner';
 import ContentContainer from './components/ContentContainer';
 import StoreOne from './components/StoreOne';
+import TextHeading from './components/TextHeading';
+
 import ThreeColumnGrid from './components/ThreeColumnGrid';
 import Product from './components/Product';
 import Footer from './components/Footer';
@@ -19,6 +21,11 @@ export default function App() {
           
         />
 
+        <TextHeading
+          text="FEATURED PRINT"
+          link="#"
+        />
+
         <ContentContainer
           image="https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png"
           title="CONTENT ONE"
@@ -26,20 +33,8 @@ export default function App() {
           
         />
 
-        <ThreeColumnGrid
-          
-        />
-
         <StoreOne />
-
-        <Product 
-          image=""
-          link="#"
-          name="PRODUCT ONE"
-          description="DESCRIPTION"
-        />
         
-
         <Footer />
 
       </div>
