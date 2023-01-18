@@ -1,12 +1,23 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --border:0px;
+  --bg-color:#1e90ff;
+}
+
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 10vh
+  line-height: 2vh;
+  
+}
+
+#SiteContent {
+    
 }
 
 #Banner {
   border-radius: 25px;
-  /*background-image:url('https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png') ;*/
   background-color:#555753;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,9 +25,62 @@ main {
   width: 100%;
   min-height:100px;
   max-height:180px;
-  border: 0px solid ;
-  padding: 5px;
+  border: var(--border) ;
   text-align: center;
   opacity: 0.85;
+}
+
+#Button {
+  border: var(--border) ;
+  
+}
+
+#Content {  
+  border: var(--border) ;
+  border-radius: 25px;
+  background-color:#555753;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  border: var(--border) ;
+  text-align: center;
+  opacity: 0.85;
+}
+
+#ContentContainer {
+  border: var(--border) ;
+  
+}
+
+#Footer {
+  border: var(--border) ;
+  
+}
+
+#ImageContainer {
+  border: var(--border) ;
+  
+}
+
+#Product {
+  border: var(--border) ;
+  
+}
+
+#StoreOne {
+  border: var(--border) ;
+  border-radius: 25px;
+  background-color:#555753;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  opacity: 0.85;  
+}
+
+#ThreeColumnGrid {
+  border: var(--border) ;
 
 }

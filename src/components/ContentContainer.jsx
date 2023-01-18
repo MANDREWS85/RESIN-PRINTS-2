@@ -1,5 +1,4 @@
 import Content from "./Content"
-import ImageContainer from "./ImageContainer"
 
 export default function ContentContainer({text,title,image}) {
   
