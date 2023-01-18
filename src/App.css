@@ -1,5 +1,22 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 10vh
+}
+
+#Banner {
+  border-radius: 25px;
+  /*background-image:url('https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png') ;*/
+  background-color:#555753;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  min-height:100px;
+  max-height:180px;
+  border: 0px solid ;
+  padding: 5px;
+  text-align: center;
+  opacity: 0.85;
+
 }
