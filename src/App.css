@@ -5,13 +5,46 @@
   --bg-color:#1e90ff;
 }
 
+h1 {
+  color:black;
+  
+}
+
+h3 {
+
+  color:black;
+  
+}
+
+a {
+  color:black;
+  
+}
+
 main {
   text-align: center;
   vertical-align: center;
   
+  horizontal-align: center;
+  margin:auto;
+
+  
+  color:white;
+  background-image:url('/public/images/Cube-BG-1.png');
+  background-size: cover;
+  
 }
 
 #SiteContent {
+  width:80%;
+  max-width:1800px;
+  background-image:url('/public/images/Cube-BG-1.png');
+  background-size: cover;
+  opacity: .85;
+
+  horizontal-align: center;
+  margin:auto;
+  
   
     
 }
@@ -20,10 +53,9 @@ main {
   border-radius: 25px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 5px;
   width: 100%;
-  min-height:100px;
-  max-height:180px;
+  min-height:280px;
+  max-height:650px;
   border: var(--border) ;
   text-align: center;
   opacity: 0.85;
@@ -40,7 +72,6 @@ main {
   border-radius: 25px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 5px;
   width: 100%;
   border: var(--border) ;
   text-align: center;
@@ -83,9 +114,15 @@ main {
   grid-gap: 10px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 350px) {
   #StoreOne {
     grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #StoreOne {
+    grid-template-columns: 2fr;
   }
 }
 

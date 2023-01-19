@@ -1,4 +1,4 @@
-//import Button from "/Button";
+import Button from "./Button";
 
 export default function Product({name,description,image,link}) {
   const id="Product"

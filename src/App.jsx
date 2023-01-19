@@ -14,22 +14,26 @@ export default function App() {
       <div id="SiteContent">
         {/*linkTitle,text,link,image*/}
         <Banner 
-          linkTitle="SITE TITLE"
-          text="THIS IS THE SITE DESCRIPTION"
+          linkTitle="3DMI.CO 3d Prints"
+          text="Warhammer 40k Proxy Models"
           link="#"
-          image='https://cdn2.myminifactory.com/assets/object-assets/62ef8dcc7bd7a/images/720X720-sovereign001.jpg'
+          image='https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png'
           
         />
 
         <TextHeading
-          text="FEATURED PRINT"
+          text="Warhammer 40k Proxy Chaos Marines"
           link="#"
         />
 
         <ContentContainer
           image="https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png"
-          title="CONTENT ONE"
-          text="Content ONE DESCRIPTION"
+          title=" X16 Midnight Sovereign Chaos Marine Warhammer 40k Proxies"
+          text="From Surrogate Miniatures July Patreon Release. For your favorite Grim Dark tabletop strategy game.
+      X5 Warhammer 40K Proxy Surrogate Miniatures Midnight Sovereigns Chaos Marines
+
+These are 3d printed under license from Surrogate Miniatures.  Similar to Chaos Space Marines from Games Workshop
+Models are washed and cured and require assembly.  Five Chaos marine proxy models from Surrogate Miniatures.  "
           
         />
 
