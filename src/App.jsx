@@ -21,12 +21,11 @@ export default function App() {
           image='https://i.ebayimg.com/images/g/gd4AAOSwcnhjzJ~b/s-l500.png'
           
         />
-
-        <TextHeading
-          text="Warhammer 40k Proxy Chaos Marines"
-          link="https://www.ebay.com/itm/225290472541"
-        />
-
+        
+      <a href="#" target="_blank">
+        <iframe width="100%" height="280" src="https://www.youtube.com/embed/Hvl8__bVETc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;loop=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </a>
+        
         <ContentContainer
           image="https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png"
           title=" X16 Midnight Sovereign Chaos Marine Warhammer 40k Proxies"
