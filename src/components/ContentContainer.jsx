@@ -1,6 +1,8 @@
 import Content from "./Content"
+import Button from "./Button"
 
-export default function ContentContainer({text,title,image,height,width}) {
+
+export default function ContentContainer({text,title,image,height,width,link}) {
   
   const id = "ContentContainer";
   
@@ -11,10 +13,14 @@ export default function ContentContainer({text,title,image,height,width}) {
         image={image}
         title={title}
         text={text}
+        height={height}
+        link={link}
       />
+
       
       <div>
-      
+        
+        
       </div>
       
     </div>

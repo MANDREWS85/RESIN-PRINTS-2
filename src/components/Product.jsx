@@ -8,7 +8,15 @@ return(
       <h3>{name}</h3>
       <p>{description}</p>
 
-    </a>
+      </a>
+      
+      <Button 
+      link={link}
+      text="BUY NOW"
+        
+      />
+
+    
   </div>
 )
   

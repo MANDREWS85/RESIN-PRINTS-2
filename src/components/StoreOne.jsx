@@ -67,27 +67,6 @@ export default function StoreOne() {
             link="#"
           />        
       
-      <Product 
-        image=""
-        link="#"
-        name="PRODUCT ONE"
-        description="DESCRIPTION"
-      />
-
-      <Product 
-        image=""
-        link="#"
-        name="PRODUCT THREE"
-        description="DESCRIPTION"
-      />
-
-      <Product 
-        image=""
-        link="#"
-        name="PRODUCT THREE"
-        description="DESCRIPTION"
-      />
-      
     </div>
     
   );
