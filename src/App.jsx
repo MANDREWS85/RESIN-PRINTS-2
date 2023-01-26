@@ -12,7 +12,10 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <main>
-      <div id="SiteContent">
+
+
+      
+      <div id="SiteContent">       
         {/*linkTitle,text,link,image*/}
         <Banner 
           linkTitle="3DMI.CO 3d Prints"
@@ -44,7 +47,9 @@ Models are washed and cured and require assembly.  Sixteen Chaos marine proxy mo
         <StoreOne />
         
         <Footer />
+          
 
+        
       </div>
     </main>
   )

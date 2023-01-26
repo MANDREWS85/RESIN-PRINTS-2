@@ -5,6 +5,23 @@
   --bg-color:#1e90ff;
 }
 
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/*#video-frame {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}*/
+
+
 h1 {
   color:black;
   
