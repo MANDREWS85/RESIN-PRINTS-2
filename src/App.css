@@ -138,7 +138,7 @@ main {
   grid-gap: 10px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 250px) {
   #StoreOne {
     grid-template-columns: 1fr;
   }
